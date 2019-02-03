@@ -182,3 +182,6 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# Visual Studio user files
+src/Unit-1/DoThis/.vs/*
