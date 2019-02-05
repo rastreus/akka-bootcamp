@@ -83,11 +83,7 @@ namespace WinTail
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>
-        private static bool IsValid(string message)
-        {
-            var valid = message.Length % 2 == 0;
-            return valid;
-        }
+        private static bool IsValid(string message) => message.Length % 2 == 0;
         #endregion
     }
 }
